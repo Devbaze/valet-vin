@@ -22,9 +22,9 @@ if [[ "$1" = "update" ]]
 then
     if [[ "$2" ]]
     then
-        composer global update "devbaze/valet-win:$2"
+        composer global update "devbaze/valet-vin:$2"
     else
-        composer global update "devbaze/valet-win"
+        composer global update "devbaze/valet-vin"
     fi
     valet install
 fi

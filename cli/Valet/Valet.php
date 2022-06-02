@@ -21,7 +21,7 @@ class Valet
 
     public $valetBin = '/usr/local/bin/valet';
     public $sudoers = '/etc/sudoers.d/valet';
-    public $github = 'https://api.github.com/repos/devbaze/valet-win/releases/latest';
+    public $github = 'https://api.github.com/repos/devbaze/valet-vin/releases/latest';
 
     /**
      * Create a new Valet instance.
